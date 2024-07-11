@@ -1,0 +1,88 @@
+body {
+    background: url(back.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 140%;
+}
+main {
+    display: flex;
+}
+
+#mainTextPart{
+    border: solid dodgerblue 3px;
+    width: 54%;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    align-content: flex-end;
+    border-radius: 10px 0px 10px 0px;
+    background: white;
+}
+#firstUser, #secondUser {
+    width: 25%;
+    height: 90vh;
+    margin: auto 10px;
+    
+}
+.input-place {
+    margin: 10px;
+}
+
+button {
+    margin: 10px 10vh;
+    width: 150px;
+    background-color: dodgerblue;
+    border: none;
+    padding: 5px;
+    color: white;
+    border-radius: 3px;
+    box-shadow: rgba(30, 143, 255, 0.567) 2px 2px;
+}
+button:active {
+    transition: all;
+    transform: translate(2px, 2px);
+    box-shadow: none;
+
+}
+
+#secondUser, #firstUser {
+    display: flex;
+    flex-direction: column;
+}
+#main-commands {
+    flex-grow: 1;
+}
+
+.style-message1 {
+    background-color: tomato;
+    margin: 10px 10px;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    border-radius: 10px 0px 10px 0px;
+    margin-right: auto;
+}
+.style-message2 {
+    background-color: gold;
+    margin: 10px 10px;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    border-radius: 10px 0px 10px 0px;
+}
+#capch, #capch2 {
+    border-radius: 10px;
+}
+
+#dance{
+    width: 315px;
+    height: 228px;
+    margin-top: auto;
+}
+
+.message {
+    max-width: 250px;
+
+}

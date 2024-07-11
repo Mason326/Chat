@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Псевдомессенджер</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <main>
+        <section id="firstUser">
+            <textarea name="capch" id="capch" class="input-place" rows="5" cols="30" placeholder="Введите текст сообщения"></textarea>
+            <button onclick="submitting()">Отправить</button>
+            <img src="shigure-goddess.gif" alt="" id="dance">
+        </section>
+    
+        <section id="mainTextPart">
+            <div></div>
+        </section>
+    
+        <section id="secondUser">
+            <div id="main-commands">
+                <button onclick="deleteAll()">Очистить чат</button>   
+                <button onclick="deleteFirst()">Удалить первое сообщение</button>
+                <button onclick="deleteLast()">Удалить последнее сообщение</button>
+            </div>
+            <textarea name="capch2" id="capch2" class="input-place" rows="5" cols="30" placeholder="Введите текст сообщения"></textarea>
+            <button onclick="submitting2()">Отправить</button>
+        </section>
+    </main>
+</body>
+</html>
